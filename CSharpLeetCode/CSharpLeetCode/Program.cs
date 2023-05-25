@@ -1,4 +1,5 @@
 ﻿using CSharpLeetCode.For;
+using CSharpLeetCode.Tree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,12 @@ namespace CSharpLeetCode
     {
         static void Main(string[] args)
         {
-            StringReplaceBank.ReplaceBlank();
+            //先序中序重建树
+            RebuildTreeByPreAndIn.Rebuild();
+
+
+            //字符串替换空格
+            //StringReplaceBank.ReplaceBlank();
             Console.ReadKey();
         }
     }
