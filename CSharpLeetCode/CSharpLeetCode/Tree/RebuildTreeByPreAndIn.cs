@@ -20,7 +20,7 @@ namespace CSharpLeetCode.Tree
             {
                 return null;
             }
-            return helper(arrPre, arrIn, 0, 0, arrIn.Length - 1);
+            return helper(arrPre, arrIn, 0, arrPre.Length-1 ,0, arrIn.Length - 1);
         }
 
         /// <summary>
@@ -32,14 +32,15 @@ namespace CSharpLeetCode.Tree
         /// <param name="inStart">中序开始idx，代表左右子树在中序开始idx</param>
         /// <param name="inEnd">中序结束idx，代表左右子树在中序结束idx</param>
         /// <returns></returns>
-        private static TreeNode helper(int[] arrPre, int[] arrIn, int preStart, int inStart, int inEnd)
+        private static TreeNode helper(int[] arrPre, int[] arrIn, int preStart,int preEnd, int inStart, int inEnd)
         {
             //终止条件
-            if (inStart > inEnd)
+            if (inStart > inEnd || preStart > preEnd)
             {
+                Console.WriteLine(string.Format("preStart:{0}--preEnd{1};;;inStart:{1}--inEnd:{2}", preStart, preEnd, inStart, inEnd));
                 return null;
             }
-            Console.WriteLine(string.Format("preStart:{0},inStart:{1},inEnd{2}", preStart, inStart, inEnd));
+            
             int currentVal = arrPre[preStart];
             TreeNode current = new TreeNode();
             current.m_value = currentVal;
@@ -52,12 +53,17 @@ namespace CSharpLeetCode.Tree
                 if (arrIn[i] == currentVal)
                 {
                     inIndex = i;
+                    break;
                 }
             }
+
+            int left_cnt = inIndex - inStart;//计算一下左子树的长度，方便确定
+
+            Console.WriteLine(string.Format("preStart:{0}--preEnd{1};;;inStart:{2}--inEnd:{3};;;inIndex:{4} -- value:{5}", preStart,preEnd, inStart, inEnd, inIndex, currentVal));
             //左子树
-            TreeNode left = helper(arrPre, arrIn, preStart + 1, inStart, inIndex - 1);
+            TreeNode left = helper(arrPre, arrIn, preStart + 1,preStart + left_cnt, inStart, inIndex - 1);
             //右子树
-            TreeNode right = helper(arrPre, arrIn, preStart + inIndex - inStart + 1, inIndex + 1, inEnd);
+            TreeNode right = helper(arrPre, arrIn, preStart + 1 + left_cnt, preEnd, inIndex + 1, inEnd);
             current.left = left;
             current.right = right;
             return current;

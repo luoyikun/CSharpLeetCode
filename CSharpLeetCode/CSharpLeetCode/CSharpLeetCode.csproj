@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="For\StringReplaceBank.cs" />
+    <Compile Include="Array\ReversalArray.cs" />
+    <Compile Include="Array\StringReplaceBank.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tree\RebuildTreeByPreAndIn.cs" />
