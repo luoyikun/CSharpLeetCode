@@ -25,12 +25,12 @@ namespace CSharpLeetCode.Recursion
         static void dfs(int s, int i) //s--总爬了多少格,i--爬了几次
         {
             if (s == n) { print(i); return; }
-            else if (s <= n-1)
+            if (s <= n-1)
             {
                 ans[i] = 1; //第 i 次，爬 1 个台阶
                 dfs(s + 1, i + 1);
             }
-            else if (s <= n - 2)
+            if (s <= n - 2)
             {
                 ans[i] = 2; //第 i 次，爬 2 个台阶
                 dfs(s + 2, i + 1);

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\CsvLine.cs" />
     <Compile Include="Array\ReversalArray.cs" />
     <Compile Include="Array\StringReplaceBank.cs" />
     <Compile Include="Program.cs" />

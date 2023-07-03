@@ -15,7 +15,7 @@ namespace CSharpLeetCode
         static void Main(string[] args)
         {
             //爬楼梯，并输出步数
-            ClimbStairs.Test();
+            //ClimbStairs.Test();
 
             //旋转数组
             //ReversalArray.Test();
@@ -27,6 +27,11 @@ namespace CSharpLeetCode
 
             //字符串替换空格
             //StringReplaceBank.ReplaceBlank();
+
+
+            CsvLine.Test();
+
+
             Console.ReadKey();
         }
     }
