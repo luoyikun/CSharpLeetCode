@@ -29,9 +29,9 @@ namespace CSharpLeetCode
             //StringReplaceBank.ReplaceBlank();
 
 
-            CsvLine.Test();
+            //CsvLine.Test();
 
-
+            CSharpLeetCode.Sort.QuickSort.Test();
             Console.ReadKey();
         }
     }
