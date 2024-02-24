@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllArrange\StringArrange.cs" />
     <Compile Include="Array\CsvLine.cs" />
     <Compile Include="Array\ReversalArray.cs" />
     <Compile Include="Array\StringReplaceBank.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="Recursion\ClimbStairs.cs" />
     <Compile Include="Tree\RebuildTreeByPreAndIn.cs" />
     <Compile Include="Tree\TreeUtil.cs" />
+    <Compile Include="Utils\PublicFunc.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

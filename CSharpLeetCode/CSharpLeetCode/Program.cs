@@ -1,4 +1,5 @@
-﻿using CSharpLeetCode.Array;
+﻿using CSharpLeetCode.AllArrange;
+using CSharpLeetCode.Array;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.Tree;
@@ -29,7 +30,7 @@ namespace CSharpLeetCode
             //StringReplaceBank.ReplaceBlank();
 
 
-            CsvLine.Test();
+            StringArrange.Test();
 
 
             Console.ReadKey();
