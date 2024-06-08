@@ -1,5 +1,6 @@
 ﻿using CSharpLeetCode.AllArrange;
 using CSharpLeetCode.Array;
+using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.Tree;
@@ -30,8 +31,9 @@ namespace CSharpLeetCode
             //StringReplaceBank.ReplaceBlank();
 
 
-            StringArrange.Test();
+            //StringArrange.Test();
 
+            Combination.Test();
 
             Console.ReadKey();
         }

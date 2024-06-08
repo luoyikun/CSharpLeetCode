@@ -53,6 +53,7 @@
     <Compile Include="Array\CsvLine.cs" />
     <Compile Include="Array\ReversalArray.cs" />
     <Compile Include="Array\StringReplaceBank.cs" />
+    <Compile Include="Backtrack\Combination.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\ClimbStairs.cs" />
