@@ -14,6 +14,7 @@ namespace CSharpLeetCode.Backtrack
     {
         public static IList<IList<int>> res = new List<IList<int>>();
         public static IList<int> path = new List<int>();
+        
         public static IList<IList<int>> Combine(int n, int k)
         {
             BackTracking(n, k, 1);
@@ -27,7 +28,9 @@ namespace CSharpLeetCode.Backtrack
                 res.Add(new List<int>(path));
                 return;
             }
-            for (int i = start; i <= n; i++)
+            //int size = n;
+            int size = n - (k - path.Count) + 1;
+            for (int i = start; i <= size; i++)
             {
                 Console.WriteLine($"增加{PublicFunc.GetObjet2Str(path)} add{i}");
                 path.Add(i);
