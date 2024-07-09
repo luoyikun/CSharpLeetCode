@@ -2,6 +2,7 @@
 using CSharpLeetCode.Array;
 using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.For;
+using CSharpLeetCode.Graph;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.Tree;
 using System;
@@ -33,8 +34,9 @@ namespace CSharpLeetCode
 
             //StringArrange.Test();
 
-            Combination.Test();
+            //Combination.Test();
 
+            AllPaths.Test();
             Console.ReadKey();
         }
     }
