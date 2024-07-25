@@ -4,6 +4,7 @@ using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
 using CSharpLeetCode.Recursion;
+using CSharpLeetCode.Regex;
 using CSharpLeetCode.Tree;
 using System;
 using System.Collections.Generic;
@@ -36,7 +37,10 @@ namespace CSharpLeetCode
 
             //Combination.Test();
 
-            AllPaths.Test();
+            //AllPaths.Test();
+
+            //正则两行之间
+            RegexBetween.Test();
             Console.ReadKey();
         }
     }
