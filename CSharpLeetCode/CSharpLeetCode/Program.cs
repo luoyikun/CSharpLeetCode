@@ -2,7 +2,9 @@
 using CSharpLeetCode.Array;
 using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.For;
+using CSharpLeetCode.Graph;
 using CSharpLeetCode.Recursion;
+using CSharpLeetCode.SlidingWindow;
 using CSharpLeetCode.Tree;
 using System;
 using System.Collections.Generic;
@@ -33,8 +35,13 @@ namespace CSharpLeetCode
 
             //StringArrange.Test();
 
-            Combination.Test();
+            //Combination.Test();
 
+            //有向图冗余连接
+            //RedundantConnections.Test();
+
+            //所有单词的异位词
+            FindAllAnagrammatic.Test();
             Console.ReadKey();
         }
     }
