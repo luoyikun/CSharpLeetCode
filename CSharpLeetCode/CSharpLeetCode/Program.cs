@@ -5,6 +5,7 @@ using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.SlidingWindow;
+using CSharpLeetCode.SubSequence;
 using CSharpLeetCode.Tree;
 using System;
 using System.Collections.Generic;
@@ -41,7 +42,10 @@ namespace CSharpLeetCode
             //RedundantConnections.Test();
 
             //所有单词的异位词
-            FindAllAnagrammatic.Test();
+            //FindAllAnagrammatic.Test();
+
+            //子串和为k
+            SubarraySumEqualsK.Test();
             Console.ReadKey();
         }
     }

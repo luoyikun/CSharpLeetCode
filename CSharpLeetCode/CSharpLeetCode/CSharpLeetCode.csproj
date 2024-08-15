@@ -60,6 +60,7 @@
     <Compile Include="Recursion\ClimbStairs.cs" />
     <Compile Include="Recursion\Fibonacci.cs" />
     <Compile Include="SlidingWindow\FindAllAnagrammatic.cs" />
+    <Compile Include="SubSequence\SubarraySumEqualsK.cs" />
     <Compile Include="Tree\RebuildTreeByPreAndIn.cs" />
     <Compile Include="Tree\TreeUtil.cs" />
     <Compile Include="Utils\DictionaryEx.cs" />
