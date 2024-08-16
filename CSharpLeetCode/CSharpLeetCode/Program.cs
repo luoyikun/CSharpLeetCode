@@ -45,7 +45,10 @@ namespace CSharpLeetCode
             //FindAllAnagrammatic.Test();
 
             //子串和为k
-            SubarraySumEqualsK.Test();
+            //SubarraySumEqualsK.Test();
+
+            //最大子数组和
+            MaxSubarray.Test();
             Console.ReadKey();
         }
     }
