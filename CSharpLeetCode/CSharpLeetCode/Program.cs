@@ -48,7 +48,10 @@ namespace CSharpLeetCode
             //SubarraySumEqualsK.Test();
 
             //最大子数组和
-            MaxSubarray.Test();
+            //MaxSubarray.Test();
+
+            //合并区间
+            MergeIntervals.Test();
             Console.ReadKey();
         }
     }

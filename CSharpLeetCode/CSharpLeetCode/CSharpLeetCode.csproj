@@ -52,6 +52,7 @@
     <Compile Include="AllArrange\StringArrange.cs" />
     <Compile Include="Array\CsvLine.cs" />
     <Compile Include="Array\MaxSubarray.cs" />
+    <Compile Include="Array\MergeIntervals.cs" />
     <Compile Include="Array\ReversalArray.cs" />
     <Compile Include="Array\StringReplaceBank.cs" />
     <Compile Include="Backtrack\Combination.cs" />
