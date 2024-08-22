@@ -26,7 +26,7 @@ namespace CSharpLeetCode.Utils
             }
             else
             {
-                Console.WriteLine(string.Format(sAdd, str));
+                Console.WriteLine(str + "->" + sAdd);
             }
             return str;
         }

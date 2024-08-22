@@ -3,6 +3,7 @@ using CSharpLeetCode.Array;
 using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
+using CSharpLeetCode.Matrix;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.SlidingWindow;
 using CSharpLeetCode.SubSequence;
@@ -51,7 +52,10 @@ namespace CSharpLeetCode
             //MaxSubarray.Test();
 
             //合并区间
-            MergeIntervals.Test();
+            //MergeIntervals.Test();
+
+            //螺旋矩阵
+            SpiralMatrix.Test();
             Console.ReadKey();
         }
     }
