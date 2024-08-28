@@ -35,7 +35,7 @@ namespace CSharpLeetCode.Matrix
                 PublicFunc.DebugObj(ans, $"从上到下,left:{left},right:{right},top:{top},bottom:{bottom},seq:{seq}");
                 right--;
                 seq++;
-                // 从右到左
+                // 从右到左，倒车的时候
                 if (top <= bottom)
                 {
                     for (int i = right; i >= left; i--)

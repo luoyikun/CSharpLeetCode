@@ -57,6 +57,7 @@
     <Compile Include="Array\StringReplaceBank.cs" />
     <Compile Include="Backtrack\Combination.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
+    <Compile Include="LinkedList\CircularDependency.cs" />
     <Compile Include="Matrix\SpiralMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
