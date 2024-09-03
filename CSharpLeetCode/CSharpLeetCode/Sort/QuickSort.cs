@@ -39,7 +39,7 @@ namespace CSharpLeetCode.Sort
                 //这时 i == j，开始取的基准数 x 填入现在的坑位中
                 s[i] = x;
                 Console.WriteLine("i = {0}", i);
-                CSharpLeetCode.Utils.Utils.PrintArr(s);
+                PublicFunc.DebugObj(s);
                 //按照i位置再分为左半边，右半边，进行排序
                 quick_sort(s, l, i - 1); // 递归调用
                 quick_sort(s, i + 1, r);

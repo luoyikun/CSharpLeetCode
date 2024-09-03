@@ -6,6 +6,7 @@ using CSharpLeetCode.Graph;
 using CSharpLeetCode.Matrix;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.SlidingWindow;
+using CSharpLeetCode.Sort;
 using CSharpLeetCode.SubSequence;
 using CSharpLeetCode.Tree;
 using System;
@@ -55,7 +56,13 @@ namespace CSharpLeetCode
             //MergeIntervals.Test();
 
             //螺旋矩阵
-            SpiralMatrix.Test();
+            //SpiralMatrix.Test();
+
+            //归并排序
+            //MergeSort.Test();
+
+            //链表排序
+            SortList.Test();
             Console.ReadKey();
         }
     }

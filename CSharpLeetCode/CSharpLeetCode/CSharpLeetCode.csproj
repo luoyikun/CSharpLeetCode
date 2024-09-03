@@ -54,6 +54,7 @@
     <Compile Include="Array\MaxSubarray.cs" />
     <Compile Include="Array\MergeIntervals.cs" />
     <Compile Include="Array\ReversalArray.cs" />
+    <Compile Include="Array\SortList.cs" />
     <Compile Include="Array\StringReplaceBank.cs" />
     <Compile Include="Backtrack\Combination.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
@@ -64,6 +65,8 @@
     <Compile Include="Recursion\ClimbStairs.cs" />
     <Compile Include="Recursion\Fibonacci.cs" />
     <Compile Include="SlidingWindow\FindAllAnagrammatic.cs" />
+    <Compile Include="Sort\MergeSort.cs" />
+    <Compile Include="Sort\QuickSort.cs" />
     <Compile Include="SubSequence\SubarraySumEqualsK.cs" />
     <Compile Include="Tree\RebuildTreeByPreAndIn.cs" />
     <Compile Include="Tree\TreeUtil.cs" />
