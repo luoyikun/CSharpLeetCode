@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpLeetCode.Tree
 {
-    class TreeUtil
+    public class TreeUtil
     {
         /*
       树的结构示例：
@@ -103,5 +103,50 @@ namespace CSharpLeetCode.Tree
             }
         }
 
+
+        public static TreeNode BuildTreeByLevelOrder(List<int?> levelOrder)
+        {
+            if (levelOrder == null || levelOrder.Count == 0)
+            {
+                return null;
+            }
+
+            // 创建根节点
+            TreeNode root = new TreeNode(levelOrder[0]);
+            // 使用队列存储待处理的节点
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+            int i = 1; // 索引用于遍历层序数组
+
+            while (i < levelOrder.Count)
+            {
+                TreeNode current = queue.Dequeue();
+
+                // 添加左子节点
+                if (i < levelOrder.Count && levelOrder[i] != null)
+                {
+                    current.left = new TreeNode(levelOrder[i]);
+                    queue.Enqueue(current.left);
+                }
+                i++;
+
+                // 添加右子节点
+                if (i < levelOrder.Count && levelOrder[i] != null)
+                {
+                    current.right = new TreeNode(levelOrder[i]);
+                    queue.Enqueue(current.right);
+                }
+                i++;
+            }
+
+            return root;
+        }
+
+        public static void TestBuildTreeByLevelOrder()
+        {
+            List<int?> list = new List<int?>(new int?[] { 3, 9, 20, null, null, 15, 7 });
+            TreeNode tree = BuildTreeByLevelOrder(list);
+            PrintTree(tree);
+        }
     }
 }

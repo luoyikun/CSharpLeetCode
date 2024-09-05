@@ -62,7 +62,10 @@ namespace CSharpLeetCode
             //MergeSort.Test();
 
             //链表排序
-            SortList.Test();
+            //SortList.Test();
+
+            //层序构建树
+            TreeUtil.TestBuildTreeByLevelOrder();
             Console.ReadKey();
         }
     }

@@ -68,6 +68,7 @@
     <Compile Include="Sort\MergeSort.cs" />
     <Compile Include="Sort\QuickSort.cs" />
     <Compile Include="SubSequence\SubarraySumEqualsK.cs" />
+    <Compile Include="Tree\MaxDepthDFS.cs" />
     <Compile Include="Tree\RebuildTreeByPreAndIn.cs" />
     <Compile Include="Tree\TreeUtil.cs" />
     <Compile Include="Utils\DictionaryEx.cs" />

@@ -11,6 +11,21 @@ namespace CSharpLeetCode.Tree
         public int m_value = 0;
         public TreeNode left;
         public TreeNode right;
+
+        public  TreeNode(int? val)
+        {
+            m_value = (int)val;
+        }
+
+        public TreeNode(int val)
+        {
+            m_value = (int)val;
+        }
+
+        public TreeNode()
+        {
+
+        }
     }
     class RebuildTreeByPreAndIn
     {
