@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpLeetCode.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -116,6 +117,7 @@ namespace CSharpLeetCode.Tree
             // 使用队列存储待处理的节点
             Queue<TreeNode> queue = new Queue<TreeNode>();
             queue.Enqueue(root);
+            //PublicFunc.DebugObj(queue, $"加入根节点{root.m_value}");
             int i = 1; // 索引用于遍历层序数组
 
             while (i < levelOrder.Count)
@@ -127,6 +129,7 @@ namespace CSharpLeetCode.Tree
                 {
                     current.left = new TreeNode(levelOrder[i]);
                     queue.Enqueue(current.left);
+                    //PublicFunc.DebugObj(queue, $"加入左节点{current.left.m_value}");
                 }
                 i++;
 
@@ -135,10 +138,11 @@ namespace CSharpLeetCode.Tree
                 {
                     current.right = new TreeNode(levelOrder[i]);
                     queue.Enqueue(current.right);
+                    //PublicFunc.DebugObj(queue, $"加入右节点{current.left.m_value}");
                 }
                 i++;
             }
-
+            PrintTree(root);
             return root;
         }
 
@@ -146,7 +150,6 @@ namespace CSharpLeetCode.Tree
         {
             List<int?> list = new List<int?>(new int?[] { 3, 9, 20, null, null, 15, 7 });
             TreeNode tree = BuildTreeByLevelOrder(list);
-            PrintTree(tree);
         }
     }
 }

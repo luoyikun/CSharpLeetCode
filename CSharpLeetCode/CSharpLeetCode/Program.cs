@@ -65,7 +65,13 @@ namespace CSharpLeetCode
             //SortList.Test();
 
             //层序构建树
-            TreeUtil.TestBuildTreeByLevelOrder();
+            //TreeUtil.TestBuildTreeByLevelOrder();
+
+            //二叉树最大深度DFS
+            //MaxDepthDFS.Test();
+
+            //二叉树最大深度BFS
+            MaxDepthBFS.Test();
             Console.ReadKey();
         }
     }
