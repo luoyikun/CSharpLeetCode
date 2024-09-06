@@ -55,8 +55,9 @@ namespace CSharpLeetCode.Tree
         }
 
 
-        public static void PrintTree(TreeNode root)
+        public static void PrintTree(TreeNode root,string sAdd  = "")
         {
+            Console.WriteLine(sAdd);
             if (root == null)
             {
                 return;
