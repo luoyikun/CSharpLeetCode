@@ -8,18 +8,18 @@ namespace CSharpLeetCode.Tree
 {
     public class TreeNode
     {
-        public int m_value = 0;
+        public int val = 0;
         public TreeNode left;
         public TreeNode right;
 
-        public  TreeNode(int? val)
+        public  TreeNode(int? pVal)
         {
-            m_value = (int)val;
+            this.val = (int)pVal;
         }
 
-        public TreeNode(int val)
+        public TreeNode(int pVal)
         {
-            m_value = (int)val;
+            this.val = (int)pVal;
         }
 
         public TreeNode()
@@ -58,7 +58,7 @@ namespace CSharpLeetCode.Tree
             
             int currentVal = arrPre[preStart];
             TreeNode current = new TreeNode();
-            current.m_value = currentVal;
+            current.val = currentVal;
 
             //开始找中序中的根节点，然后分出左子树和右子树
             int inIndex = 0;

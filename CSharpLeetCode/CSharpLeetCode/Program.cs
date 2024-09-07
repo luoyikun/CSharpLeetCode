@@ -74,7 +74,13 @@ namespace CSharpLeetCode
             //MaxDepthBFS.Test();
 
             //翻转二叉树
-            InvertTree.Test();
+            //InvertTree.Test();
+
+            //对称二叉树DFS
+            //SymmetricTreeDFS.Test();
+
+            //对称二叉树BFS
+            SymmetricTreeBFS.Test();
             Console.ReadKey();
         }
     }

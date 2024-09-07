@@ -28,16 +28,16 @@ namespace CSharpLeetCode.Tree
                 while (size > 0)
                 {
                     TreeNode node = queue.Dequeue();
-                    Console.WriteLine( $"出队节点{node.m_value}");
+                    Console.WriteLine( $"出队节点{node.val}");
                     if (node.left != null)
                     {
                         queue.Enqueue(node.left);
-                        Console.WriteLine( $"入队左节点{node.left.m_value}");
+                        Console.WriteLine( $"入队左节点{node.left.val}");
                     }
                     if (node.right != null)
                     {
                         queue.Enqueue(node.right);
-                        Console.WriteLine( $"入队右节点{node.right.m_value}");
+                        Console.WriteLine( $"入队右节点{node.right.val}");
                     }
                     size--;
                 }

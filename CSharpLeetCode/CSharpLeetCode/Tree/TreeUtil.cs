@@ -30,7 +30,7 @@ namespace CSharpLeetCode.Tree
             // 保证输入的树不为空
             if (currNode == null) return;
             // 先将当前节点保存到二维数组中
-            res[rowIndex][columnIndex] = currNode.m_value.ToString();
+            res[rowIndex][columnIndex] = currNode.val.ToString();
 
             // 计算当前位于树的第几层
             int currLevel = ((rowIndex + 1) / 2);
@@ -151,6 +151,21 @@ namespace CSharpLeetCode.Tree
         {
             List<int?> list = new List<int?>(new int?[] { 3, 9, 20, null, null, 15, 7 });
             TreeNode tree = BuildTreeByLevelOrder(list);
+        }
+
+        public static string GetStrQueueTreeNode(Queue<TreeNode> q)
+        {
+            string s = "[";
+            foreach (var item in q)
+            {
+                if (item != null)
+                {
+                    s = s + item.val;
+                    s = s + ",";
+                }
+            }
+            s += "]";
+            return s;
         }
     }
 }
