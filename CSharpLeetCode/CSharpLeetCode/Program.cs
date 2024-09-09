@@ -80,7 +80,10 @@ namespace CSharpLeetCode
             //SymmetricTreeDFS.Test();
 
             //对称二叉树BFS
-            SymmetricTreeBFS.Test();
+            //SymmetricTreeBFS.Test();
+
+            //有序数组转为二叉搜索树
+            SortArrayToBinarySearchTree.Test();
             Console.ReadKey();
         }
     }

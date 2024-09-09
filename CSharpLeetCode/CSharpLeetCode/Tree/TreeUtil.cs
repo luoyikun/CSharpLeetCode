@@ -167,5 +167,12 @@ namespace CSharpLeetCode.Tree
             s += "]";
             return s;
         }
+
+        public enum EnNode
+        {
+            Root = 0,
+            Left = 1,
+            Right = 2,
+        }
     }
 }
