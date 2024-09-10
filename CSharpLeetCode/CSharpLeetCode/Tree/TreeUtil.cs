@@ -168,6 +168,21 @@ namespace CSharpLeetCode.Tree
             return s;
         }
 
+        public static string GetStrStackTreeNode(Stack<TreeNode> q)
+        {
+            string s = "[";
+            foreach (var item in q)
+            {
+                if (item != null)
+                {
+                    s = s + item.val;
+                    s = s + ",";
+                }
+            }
+            s += "]";
+            return s;
+        }
+
         public enum EnNode
         {
             Root = 0,

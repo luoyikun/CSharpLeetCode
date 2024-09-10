@@ -83,7 +83,13 @@ namespace CSharpLeetCode
             //SymmetricTreeBFS.Test();
 
             //有序数组转为二叉搜索树
-            SortArrayToBinarySearchTree.Test();
+            //SortArrayToBinarySearchTree.Test();
+
+            //是否是二叉搜索树
+            //ValidateBinarySearchTree.Test();
+
+            //验证二叉搜索树，中序遍历
+            ValidateBinarySearchTreeInorder.Test();
             Console.ReadKey();
         }
     }
