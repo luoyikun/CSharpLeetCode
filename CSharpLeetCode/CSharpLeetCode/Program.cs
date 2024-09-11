@@ -89,7 +89,10 @@ namespace CSharpLeetCode
             //ValidateBinarySearchTree.Test();
 
             //验证二叉搜索树，中序遍历
-            ValidateBinarySearchTreeInorder.Test();
+            //ValidateBinarySearchTreeInorder.Test();
+
+            //第K小在二叉搜索树中
+            MinKInBST.Test();
             Console.ReadKey();
         }
     }

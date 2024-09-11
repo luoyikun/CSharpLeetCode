@@ -71,6 +71,7 @@
     <Compile Include="Tree\InvertTree.cs" />
     <Compile Include="Tree\MaxDepthBFS.cs" />
     <Compile Include="Tree\MaxDepthDFS.cs" />
+    <Compile Include="Tree\MinKInBST.cs" />
     <Compile Include="Tree\RebuildTreeByPreAndIn.cs" />
     <Compile Include="Tree\SortArrayToBinarySearchTree.cs" />
     <Compile Include="Tree\SymmetricTreeBFS.cs" />
