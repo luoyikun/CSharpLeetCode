@@ -92,7 +92,10 @@ namespace CSharpLeetCode
             //ValidateBinarySearchTreeInorder.Test();
 
             //第K小在二叉搜索树中
-            MinKInBST.Test();
+            //MinKInBST.Test();
+
+            //二叉树转链表
+            Tree2List.Test();
             Console.ReadKey();
         }
     }

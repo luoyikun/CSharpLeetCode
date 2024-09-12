@@ -76,6 +76,7 @@
     <Compile Include="Tree\SortArrayToBinarySearchTree.cs" />
     <Compile Include="Tree\SymmetricTreeBFS.cs" />
     <Compile Include="Tree\SymmetricTreeDFS.cs" />
+    <Compile Include="Tree\Tree2List.cs" />
     <Compile Include="Tree\TreeUtil.cs" />
     <Compile Include="Tree\ValidateBinarySearchTree.cs" />
     <Compile Include="Tree\ValidateBinarySearchTreeInorder.cs" />

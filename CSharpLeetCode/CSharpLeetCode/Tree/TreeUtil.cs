@@ -105,7 +105,11 @@ namespace CSharpLeetCode.Tree
             }
         }
 
-
+        /// <summary>
+        /// 特殊的层序，包含null 节点，{ 5, 1, 4, null, null, 3, 6 }
+        /// </summary>
+        /// <param name="levelOrder"></param>
+        /// <returns></returns>
         public static TreeNode BuildTreeByLevelOrder(List<int?> levelOrder)
         {
             if (levelOrder == null || levelOrder.Count == 0)
@@ -188,6 +192,56 @@ namespace CSharpLeetCode.Tree
             Root = 0,
             Left = 1,
             Right = 2,
+        }
+
+        /// <summary>
+        /// 二叉树返回层序，特殊层序包含null
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns>{ 5, 1, 4, null, null, 3, 6 }</returns>
+        public static List<int?> GetLevelOrder(TreeNode root)
+        {
+            if (root == null)
+            {
+                return null;
+            }
+            List<int?> retList = new List<int?>(8);
+            Queue<TreeNode> queue = new Queue<TreeNode>();
+            queue.Enqueue(root);
+
+            while (queue.Count > 0)
+            {
+                int levelSize = queue.Count;
+                
+
+                for (int i = 0; i < levelSize; i++)
+                {
+                    TreeNode currentNode = queue.Dequeue();
+                    retList.Add(currentNode.val);
+
+                    if (currentNode.left != null)
+                    {
+                        queue.Enqueue(currentNode.left);
+                    }
+                    else
+                    {
+                        retList.Add(null);
+                    }
+
+                    if (currentNode.right != null)
+                    {
+                        queue.Enqueue(currentNode.right);
+                    }
+                    else
+                    {
+                        retList.Add(null);
+                    }
+                }
+
+                
+            }
+
+            return retList;
         }
     }
 }
