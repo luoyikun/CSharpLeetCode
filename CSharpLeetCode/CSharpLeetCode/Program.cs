@@ -9,6 +9,7 @@ using CSharpLeetCode.SlidingWindow;
 using CSharpLeetCode.Sort;
 using CSharpLeetCode.SubSequence;
 using CSharpLeetCode.Tree;
+using CSharpLeetCode.Trick;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -95,7 +96,9 @@ namespace CSharpLeetCode
             //MinKInBST.Test();
 
             //二叉树转链表
-            Tree2List.Test();
+            //Tree2List.Test();
+
+            SingleNumber.Test();
             Console.ReadKey();
         }
     }

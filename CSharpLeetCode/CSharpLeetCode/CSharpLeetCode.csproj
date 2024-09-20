@@ -80,6 +80,7 @@
     <Compile Include="Tree\TreeUtil.cs" />
     <Compile Include="Tree\ValidateBinarySearchTree.cs" />
     <Compile Include="Tree\ValidateBinarySearchTreeInorder.cs" />
+    <Compile Include="Trick\SingleNumber.cs" />
     <Compile Include="Utils\DictionaryEx.cs" />
     <Compile Include="Utils\PublicFunc.cs" />
   </ItemGroup>
