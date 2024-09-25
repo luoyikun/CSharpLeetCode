@@ -1,6 +1,7 @@
 ﻿using CSharpLeetCode.AllArrange;
 using CSharpLeetCode.Array;
 using CSharpLeetCode.Backtrack;
+using CSharpLeetCode.BinarySearch;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
 using CSharpLeetCode.Matrix;
@@ -98,7 +99,11 @@ namespace CSharpLeetCode
             //二叉树转链表
             //Tree2List.Test();
 
-            SingleNumber.Test();
+            //只出现1次的数字
+            //SingleNumber.Test();
+
+            //搜索二维矩阵
+            SearchMatrix.Test();
             Console.ReadKey();
         }
     }

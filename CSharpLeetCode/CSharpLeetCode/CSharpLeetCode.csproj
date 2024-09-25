@@ -57,6 +57,7 @@
     <Compile Include="Array\SortList.cs" />
     <Compile Include="Array\StringReplaceBank.cs" />
     <Compile Include="Backtrack\Combination.cs" />
+    <Compile Include="BinarySearch\SearchMatrix.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
     <Compile Include="LinkedList\CircularDependency.cs" />
     <Compile Include="Matrix\SpiralMatrix.cs" />

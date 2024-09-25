@@ -31,4 +31,16 @@ namespace CSharpLeetCode.Utils
             return str;
         }
     }
+
+    public class Range
+    {
+        public int low;
+        public int high;
+
+        public Range(int pLow, int pHigh)
+        {
+            low = pLow;
+            high = pHigh;
+        }
+    }
 }
