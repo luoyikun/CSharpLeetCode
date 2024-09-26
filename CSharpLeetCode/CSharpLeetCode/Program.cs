@@ -103,7 +103,10 @@ namespace CSharpLeetCode
             //SingleNumber.Test();
 
             //搜索二维矩阵
-            SearchMatrix.Test();
+            //SearchMatrix.Test();
+
+            //二分法找区间
+            FindRange.Test();
             Console.ReadKey();
         }
     }
