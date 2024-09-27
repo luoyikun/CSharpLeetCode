@@ -8,6 +8,7 @@ using CSharpLeetCode.Matrix;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.SlidingWindow;
 using CSharpLeetCode.Sort;
+using CSharpLeetCode.Stack;
 using CSharpLeetCode.SubSequence;
 using CSharpLeetCode.Tree;
 using CSharpLeetCode.Trick;
@@ -106,7 +107,10 @@ namespace CSharpLeetCode
             //SearchMatrix.Test();
 
             //二分法找区间
-            FindRange.Test();
+            //FindRange.Test();
+
+            //括号匹配
+            ValidParentheses.Test();
             Console.ReadKey();
         }
     }
