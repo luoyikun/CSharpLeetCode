@@ -110,7 +110,10 @@ namespace CSharpLeetCode
             //FindRange.Test();
 
             //括号匹配
-            ValidParentheses.Test();
+            //ValidParentheses.Test();
+
+            //字符串解码
+            DecodeString.Test();
             Console.ReadKey();
         }
     }
