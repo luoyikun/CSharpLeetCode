@@ -69,7 +69,9 @@
     <Compile Include="SlidingWindow\FindAllAnagrammatic.cs" />
     <Compile Include="Sort\MergeSort.cs" />
     <Compile Include="Sort\QuickSort.cs" />
+    <Compile Include="Stack\DaliyTemperatures.cs" />
     <Compile Include="Stack\DecodeString.cs" />
+    <Compile Include="Stack\MonotonicStack.cs" />
     <Compile Include="Stack\ValidParentheses.cs" />
     <Compile Include="SubSequence\SubarraySumEqualsK.cs" />
     <Compile Include="Tree\InvertTree.cs" />

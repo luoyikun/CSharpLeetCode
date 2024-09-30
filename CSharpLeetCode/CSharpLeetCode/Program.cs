@@ -113,7 +113,13 @@ namespace CSharpLeetCode
             //ValidParentheses.Test();
 
             //字符串解码
-            DecodeString.Test();
+            //DecodeString.Test();
+
+            //每日温度
+            //DaliyTemperatures.Test();
+
+            //下一个更大元素
+            MonotonicStack.Test();
             Console.ReadKey();
         }
     }
