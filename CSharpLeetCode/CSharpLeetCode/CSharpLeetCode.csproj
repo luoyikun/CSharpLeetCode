@@ -60,6 +60,7 @@
     <Compile Include="BinarySearch\FindRange.cs" />
     <Compile Include="BinarySearch\SearchMatrix.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
+    <Compile Include="Heap\KthInArray.cs" />
     <Compile Include="LinkedList\CircularDependency.cs" />
     <Compile Include="Matrix\SpiralMatrix.cs" />
     <Compile Include="Program.cs" />
@@ -95,5 +96,6 @@
     <Fakes Include="Fakes\Newtonsoft.Json.fakes" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

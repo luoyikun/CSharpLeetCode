@@ -105,6 +105,16 @@ namespace CSharpLeetCode.Tree
             }
         }
 
+        public static TreeNode BuildTreeByLevelOrderArr(int[] arr)
+        {
+            List<int?> levelOrder = new List<int?>();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                levelOrder.Add(arr[i]);
+            }
+            TreeNode tree = BuildTreeByLevelOrder(levelOrder);
+            return tree;
+        }
         /// <summary>
         /// 特殊的层序，包含null 节点，{ 5, 1, 4, null, null, 3, 6 }
         /// </summary>

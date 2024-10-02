@@ -4,6 +4,7 @@ using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.BinarySearch;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
+using CSharpLeetCode.Heap;
 using CSharpLeetCode.Matrix;
 using CSharpLeetCode.Recursion;
 using CSharpLeetCode.SlidingWindow;
@@ -119,7 +120,10 @@ namespace CSharpLeetCode
             //DaliyTemperatures.Test();
 
             //下一个更大元素
-            MonotonicStack.Test();
+            //MonotonicStack.Test();
+
+            //第K个更大数
+            KthInArray.Test();
             Console.ReadKey();
         }
     }
