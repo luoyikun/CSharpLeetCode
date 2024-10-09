@@ -4,6 +4,7 @@ using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.BinarySearch;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
+using CSharpLeetCode.GreedyAlgorithm;
 using CSharpLeetCode.Heap;
 using CSharpLeetCode.Matrix;
 using CSharpLeetCode.Recursion;
@@ -123,7 +124,10 @@ namespace CSharpLeetCode
             //MonotonicStack.Test();
 
             //第K个更大数
-            KthInArray.Test();
+            //KthInArray.Test();
+
+            //跳跃游戏
+            CanJump.Test();
             Console.ReadKey();
         }
     }

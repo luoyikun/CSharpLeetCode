@@ -60,6 +60,7 @@
     <Compile Include="BinarySearch\FindRange.cs" />
     <Compile Include="BinarySearch\SearchMatrix.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
+    <Compile Include="GreedyAlgorithm\CanJump.cs" />
     <Compile Include="Heap\KthInArray.cs" />
     <Compile Include="LinkedList\CircularDependency.cs" />
     <Compile Include="Matrix\SpiralMatrix.cs" />
