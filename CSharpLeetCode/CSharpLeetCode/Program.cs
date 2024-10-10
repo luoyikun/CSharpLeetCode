@@ -127,7 +127,10 @@ namespace CSharpLeetCode
             //KthInArray.Test();
 
             //跳跃游戏
-            CanJump.Test();
+            //CanJump.Test();
+
+            //跳跃游戏2
+            Jump2.Test();
             Console.ReadKey();
         }
     }
