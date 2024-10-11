@@ -59,6 +59,7 @@
     <Compile Include="Backtrack\Combination.cs" />
     <Compile Include="BinarySearch\FindRange.cs" />
     <Compile Include="BinarySearch\SearchMatrix.cs" />
+    <Compile Include="DynamicProgramming\ClimbStair.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
     <Compile Include="GreedyAlgorithm\CanJump.cs" />
     <Compile Include="GreedyAlgorithm\Jump2.cs" />

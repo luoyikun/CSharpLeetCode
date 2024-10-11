@@ -36,7 +36,7 @@ namespace CSharpLeetCode.GreedyAlgorithm
             int length = nums.Length;
             int end = 0;
             int maxPosition = 0;
-            int steps = 0;https://assets.leetcode-cn.com/solution-static/45/45_fig1.png
+            int steps = 0;
             //不必访问最后一个，因为题意已经可以跳到，并且会增加步数
             for (int i = 0; i < length - 1; i++)
             {

@@ -2,6 +2,7 @@
 using CSharpLeetCode.Array;
 using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.BinarySearch;
+using CSharpLeetCode.DynamicProgramming;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
 using CSharpLeetCode.GreedyAlgorithm;
@@ -130,7 +131,10 @@ namespace CSharpLeetCode
             //CanJump.Test();
 
             //跳跃游戏2
-            Jump2.Test();
+            //Jump2.Test();
+
+            //爬楼梯
+            ClimbStair.Test();
             Console.ReadKey();
         }
     }
