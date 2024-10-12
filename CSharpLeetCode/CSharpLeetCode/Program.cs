@@ -134,7 +134,10 @@ namespace CSharpLeetCode
             //Jump2.Test();
 
             //爬楼梯
-            ClimbStair.Test();
+            //ClimbStair.Test();
+
+            //杨辉三角形
+            PascalsTriangle.Test();
             Console.ReadKey();
         }
     }
