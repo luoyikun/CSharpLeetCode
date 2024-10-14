@@ -61,6 +61,7 @@
     <Compile Include="BinarySearch\SearchMatrix.cs" />
     <Compile Include="DynamicProgramming\ClimbStair.cs" />
     <Compile Include="DynamicProgramming\PascalsTriangle.cs" />
+    <Compile Include="DynamicProgramming\WordBreak.cs" />
     <Compile Include="Graph\RedundantConnections.cs" />
     <Compile Include="GreedyAlgorithm\CanJump.cs" />
     <Compile Include="GreedyAlgorithm\Jump2.cs" />

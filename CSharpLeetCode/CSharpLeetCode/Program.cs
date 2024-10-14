@@ -137,7 +137,10 @@ namespace CSharpLeetCode
             //ClimbStair.Test();
 
             //杨辉三角形
-            PascalsTriangle.Test();
+            //PascalsTriangle.Test();
+
+            //单词拆分
+            WordBreak.Test();
             Console.ReadKey();
         }
     }
