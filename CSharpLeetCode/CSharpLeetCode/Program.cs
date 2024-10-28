@@ -6,6 +6,7 @@ using CSharpLeetCode.DynamicProgramming;
 using CSharpLeetCode.For;
 using CSharpLeetCode.Graph;
 using CSharpLeetCode.GreedyAlgorithm;
+using CSharpLeetCode.Hash;
 using CSharpLeetCode.Heap;
 using CSharpLeetCode.Matrix;
 using CSharpLeetCode.Recursion;
@@ -140,7 +141,10 @@ namespace CSharpLeetCode
             //PascalsTriangle.Test();
 
             //单词拆分
-            WordBreak.Test();
+            //WordBreak.Test();
+
+            //两数之和
+            TwoSum.Test();
             Console.ReadKey();
         }
     }
