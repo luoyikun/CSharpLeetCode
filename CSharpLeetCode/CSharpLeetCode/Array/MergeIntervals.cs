@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLeetCode.Array
+namespace CSharpLeetCode.MyArray
 {
     //合并区间
     //https://leetcode.cn/problems/merge-intervals/description/?envType=study-plan-v2&envId=top-100-liked

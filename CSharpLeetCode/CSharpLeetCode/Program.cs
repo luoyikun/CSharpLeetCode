@@ -1,5 +1,5 @@
 ﻿using CSharpLeetCode.AllArrange;
-using CSharpLeetCode.Array;
+using CSharpLeetCode.MyArray;
 using CSharpLeetCode.Backtrack;
 using CSharpLeetCode.BinarySearch;
 using CSharpLeetCode.DynamicProgramming;
@@ -144,7 +144,10 @@ namespace CSharpLeetCode
             //WordBreak.Test();
 
             //两数之和
-            TwoSum.Test();
+            //TwoSum.Test();
+
+            //字母异位词分组
+            GroupAnagrams.Test();
             Console.ReadKey();
         }
     }

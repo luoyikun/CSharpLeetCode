@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLeetCode.Array
+namespace CSharpLeetCode.MyArray
 {
     public static class CsvLine
     {
