@@ -147,7 +147,10 @@ namespace CSharpLeetCode
             //TwoSum.Test();
 
             //字母异位词分组
-            GroupAnagrams.Test();
+            //GroupAnagrams.Test();
+
+            //最长连续序列
+            LongestSequence.Test();
             Console.ReadKey();
         }
     }

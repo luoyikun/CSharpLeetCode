@@ -66,6 +66,7 @@
     <Compile Include="GreedyAlgorithm\CanJump.cs" />
     <Compile Include="GreedyAlgorithm\Jump2.cs" />
     <Compile Include="Hash\GroupAnagrams.cs" />
+    <Compile Include="Hash\LongestSequence.cs" />
     <Compile Include="Hash\TwoSum.cs" />
     <Compile Include="Heap\KthInArray.cs" />
     <Compile Include="LinkedList\CircularDependency.cs" />
