@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CSharpLeetCode.TwoPointer;
 
 namespace CSharpLeetCode
 {
@@ -150,7 +151,10 @@ namespace CSharpLeetCode
             //GroupAnagrams.Test();
 
             //最长连续序列
-            LongestSequence.Test();
+            //LongestSequence.Test();
+
+            //移动零
+            MoveZeroes.Test();
             Console.ReadKey();
         }
     }
