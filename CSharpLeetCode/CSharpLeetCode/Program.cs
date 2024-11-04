@@ -157,7 +157,10 @@ namespace CSharpLeetCode
             //MoveZeroes.Test();
 
             //接更多水容器
-            MostWater.Test();
+            //MostWater.Test();
+
+            //三数之合
+            ThreeSum.Test();
             Console.ReadKey();
         }
     }

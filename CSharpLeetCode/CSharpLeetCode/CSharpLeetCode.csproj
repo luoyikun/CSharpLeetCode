@@ -98,6 +98,7 @@
     <Compile Include="Trick\SingleNumber.cs" />
     <Compile Include="TwoPointer\MostWater.cs" />
     <Compile Include="TwoPointer\MoveZeroes.cs" />
+    <Compile Include="TwoPointer\ThreeSum.cs" />
     <Compile Include="Utils\DictionaryEx.cs" />
     <Compile Include="Utils\PublicFunc.cs" />
   </ItemGroup>
