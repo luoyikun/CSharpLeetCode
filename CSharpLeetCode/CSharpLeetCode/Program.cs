@@ -160,7 +160,10 @@ namespace CSharpLeetCode
             //MostWater.Test();
 
             //三数之合
-            ThreeSum.Test();
+            //ThreeSum.Test();
+
+            //接雨水
+            TrapRainWater.Test();
             Console.ReadKey();
         }
     }
