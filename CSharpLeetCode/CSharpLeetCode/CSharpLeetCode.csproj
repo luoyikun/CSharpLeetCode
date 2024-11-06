@@ -76,6 +76,7 @@
     <Compile Include="Recursion\ClimbStairs.cs" />
     <Compile Include="Recursion\Fibonacci.cs" />
     <Compile Include="SlidingWindow\FindAllAnagrammatic.cs" />
+    <Compile Include="SlidingWindow\LongestSubstringWithoutRepeat.cs" />
     <Compile Include="Sort\MergeSort.cs" />
     <Compile Include="Sort\QuickSort.cs" />
     <Compile Include="Stack\DaliyTemperatures.cs" />
