@@ -55,7 +55,7 @@ namespace CSharpLeetCode
             //FindAllAnagrammatic.Test();
 
             //子串和为k
-            //SubarraySumEqualsK.Test();
+            SubarraySumEqualsK.Test();
 
             //最大子数组和
             //MaxSubarray.Test();
@@ -166,7 +166,7 @@ namespace CSharpLeetCode
             //TrapRainWater.Test();
 
             //无重复最长子串长度
-            LongestSubstringWithoutRepeat.Test();
+            //LongestSubstringWithoutRepeat.Test();
             Console.ReadKey();
         }
     }
