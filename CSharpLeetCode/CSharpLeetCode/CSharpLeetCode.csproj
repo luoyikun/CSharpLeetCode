@@ -50,12 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllArrange\StringArrange.cs" />
-    <Compile Include="Array\CsvLine.cs" />
-    <Compile Include="Array\MaxSubarray.cs" />
-    <Compile Include="Array\MergeIntervals.cs" />
-    <Compile Include="Array\ReversalArray.cs" />
-    <Compile Include="Array\SortList.cs" />
-    <Compile Include="Array\StringReplaceBank.cs" />
+    <Compile Include="MyArray\CsvLine.cs" />
+    <Compile Include="MyArray\MaxSubarray.cs" />
+    <Compile Include="MyArray\MergeIntervals.cs" />
+    <Compile Include="MyArray\ReversalArray.cs" />
+    <Compile Include="MyArray\RotateArray.cs" />
+    <Compile Include="MyArray\SortList.cs" />
+    <Compile Include="MyArray\StringReplaceBank.cs" />
     <Compile Include="Backtrack\Combination.cs" />
     <Compile Include="BinarySearch\FindRange.cs" />
     <Compile Include="BinarySearch\SearchMatrix.cs" />

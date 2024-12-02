@@ -22,6 +22,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CSharpLeetCode.TwoPointer;
+using CSharpLeetCode.MyArray;
 
 namespace CSharpLeetCode
 {
@@ -55,7 +56,7 @@ namespace CSharpLeetCode
             //FindAllAnagrammatic.Test();
 
             //子串和为k
-            SubarraySumEqualsK.Test();
+            //SubarraySumEqualsK.Test();
 
             //最大子数组和
             //MaxSubarray.Test();
@@ -167,6 +168,9 @@ namespace CSharpLeetCode
 
             //无重复最长子串长度
             //LongestSubstringWithoutRepeat.Test();
+
+            //轮转数组
+            RotateArray.Test();
             Console.ReadKey();
         }
     }
